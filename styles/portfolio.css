@@ -105,6 +105,8 @@ text-align: left;
 .banner-title{
 
 
+
+}
  
 
 .banner-profile-picture{
@@ -112,7 +114,39 @@ text-align: left;
 }
 
 
-.header {
+
+.banner{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header{
+
+background-image: url('../images/developer.png');
+
+background-repeat: no-repeat; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ .header {
 
 background-image: url("../images/developer.png") , url("../images/header_bg.png");
 background-repeat: no-repeat;
@@ -123,7 +157,7 @@ background-repeat: no-repeat;
 
 }
 
-
+ */
 
 
 
